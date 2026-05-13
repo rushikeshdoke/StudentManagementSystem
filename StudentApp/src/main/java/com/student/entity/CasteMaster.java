@@ -8,13 +8,13 @@ import jakarta.persistence.Table;
 import lombok.Data;
 
 @Entity
-@Table(name="cast_master")
+@Table(name="caste_master")
 @Data
-public class CastMaster {
+public class CasteMaster {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long castId;
+	private Long casteId;
 	
-	private String castName;
+	private String casteName;
 }
